@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>  
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="2formulario.css" >
+    <title>Novo</title>
+</head>
+
+ <body>
+    <div class="caixa">
+    <div class="campo">
+        <h1 id="titulo">freeCodeCamp Survey Form</h1>
+        <p id="subtitulo">Thank you for taking the time to help us improve the platform</p>
+    
+    </div>
+    <form>
+        
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+         <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
+
+        </div>
+        <div class="campo">
+            <label for="Age (optional)"><strong>Age (optional)</strong></label>
+            <input type="Age (optional)" name="Age (optional)" id="Age (optional)" required>
+        </div>
+        <br>
+        <div class="campo">
+            
+            <label for="Which-option-best-describes-your-current-role?"> <strong>Which option best describes your current role?</strong></label>
+            <select id="Which-option-best-describes-your-current-role?">
+             <option selected disabled value="">Select curret role</option>
+            <option>Student</option>
+            <option>Full time job</option>
+            <option>Full time learn</option>
+            <option>Other</option>
+            </select>
+         </div>
+         <div class="campo">
+            <label>Would you recommend freeCodeCamp to a friend?
+            <label>
+                <br>
+                   <input type="radio" name="devweb" value="Definitely"> Definitely
+                   <br>
+               </label>
+           </label>
+           <label>
+               <input type="radio" name="devweb" value="Maybe"> Maybe
+               <br>
+           </label>
+           <label>
+               <input type="radio" name="devweb" value="Not sure"> Not sure
+           </label>
+           <div class="campo">
+            
+            <label for="What-is-your-favorite-feature-of-freeCodeCamp?"> <strong>What is your favorite feature of freeCodeCamp?</strong></label>
+            <select id="What-is-your-favorite-feature-of-freeCodeCamp?">
+             <option selected disabled value="">Select an option</option>
+            <option>Challegens</option>
+            <option>Projects</option>
+            <option>Community</option>
+            <option>Open source</option>
+            </select>
+         </div>
+         
+            <div id="check">
+    
+                <label><strong>What would you like to see improved? (Check all that apply)</strong></label><br>
+                <div>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="Front-end Projects">
+                <label for="tecnologia1">Front-end Projects</label> 
+                </div>
+                <div>
+                <input type="checkbox" id="tecnologia2" name="tacnologia2" value="Back-end Projects">
+                <label for="tecnologia2">Back-end Projects</label>
+                </div>
+                <div>
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Data Visualization">
+                <label for="tecnologia3">Data Visualization</label> 
+                </div>
+                <div>
+                <input type="checkbox" id="tencologia4" name="tencologia4" value="Challenges">
+                <label for="tencologia4">Challenges</label>
+                </div>
+                <div>
+                <input type="checkbox" id="tecnologia5" name="tencologia5" value="Open Source Community">
+                <label for="tecnologia5">Open Source Community</label>
+                </div>
+                <div>
+                <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Gitter help rooms">
+                <label for="tecnologia6">Gitter help rooms</label>
+                </div>
+                <div>
+                <input type="checkbox" id="tencologia7" name="tecnologia7" value="Videos">
+                <label for="tencologia7">Videos</label>
+                </div>
+                <div>
+                <input type="checkbox" id="tencologia9" name="tecnologia9" value="City Meetups">
+                <label for="tencologia9">City Meetups</label>
+                </div>
+                <div>
+                <input type="checkbox" id="tencologia10" name="tecnologia10" value="Wiki">
+                <label for="tencologia10">Wiki</label>
+                </div>
+                <div>
+                <input type="checkbox" id="tencologia11" name="tecnologia11" value="Forum">
+                <label for="tencologia11">Forum</label>
+                </div>
+                <div>
+                <input type="checkbox" id="tencologia11" name="tecnologia11" value="Forum">
+                <label for="tencologia11">Forum</label>
+                </div>
+                <div>
+                <input type="checkbox" id="tencologia12" name="tecnologia12" value="Additional Courses">
+                <label for="tencologia12">Additional Courses</label>
+                </div>
+            </div>
+              <div>
+                 <br>
+                 <label><strong>Any comments or suggestions?</strong></label>
+                 <textarea row="20" style="width: 26em;" id="expenriencia" nome="expenriencia"></textarea>
+             </div>
+             <button class="buton" type="submit">Concluir</button>
+    </form>
+
+</div>
+</body>
+</html>
+
+        
+

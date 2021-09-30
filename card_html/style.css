@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+body {
+    background-color: rgb(21, 196, 129);
+    justify-content: center;
+    color: lightgrey;
+    
+    display: inline-block
+    
+}
+
+main.card {
+    background-color: rgb(27, 34, 30);
+    display: flex;
+    flex-direction: row;
+    margin: 2rem auto;  
+    align-items: center;
+
+}
+
+.card {
+    background-color: rgb(27, 34, 30);
+    display: flex;
+    flex-direction: row;
+   
+    margin: 2rem auto; 
+    padding: 2 rem 2 rem 5rem 5rem;
+}
+
+    
+.card1 {
+     
+    background-color: rgb(27, 34, 30);
+    display: flex;
+    flex-direction: row;
+    
+    margin: 2rem auto; 
+
+}
+
+.card2 {
+     
+    background-color: rgb(27, 34, 30);
+    display: flex;
+    flex-direction: row;
+    
+    margin: 2rem auto; 
+
+}
+
+.title {
+    text-align: center;
+    color: black;
+    margin: 2rem;
+    align-items: center;
+    
+    
+}
+ 
+
+    
+   

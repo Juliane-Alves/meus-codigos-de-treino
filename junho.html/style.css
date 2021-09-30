@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#data-table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    color: blue;
+}
+
+body {
+    color: crimson;
+}
+table thead th {
+    background: white;
+    font-weight: normal;
+    padding: 1rem 2rem;
+    text-align: left;
+    color: #969cb3;
+}
+table tbody tr {
+    opacity: 0.7;
+
+}
+table tbody tr:hover {
+    opacity: 1;
+
+}
